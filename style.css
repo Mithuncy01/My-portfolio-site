@@ -30,6 +30,7 @@ ul li a{
 
 .bt1{
     background-color: #ffffff;
+    font-size: 15px;
     border: none;
     padding: 5px 30px;
     border-radius: 50px;
@@ -133,6 +134,9 @@ ul li a:hover{color:rgb(77, 77, 77) ;}
 .icondiv i:hover{
     color:rgb(77, 77, 77);
 }
+
+/* New About Section */
+
 .container2{
     background-color: #ffe4e4;
     height: 800px;
@@ -155,7 +159,7 @@ ul li a:hover{color:rgb(77, 77, 77) ;}
     font-size: 50px;
     color:rgb(77, 77, 77);
 }
-.bt4{
+.button4{
     padding: 10px 20px;
     margin-top: 30px;
     border: none;
@@ -169,4 +173,4 @@ ul li a:hover{color:rgb(77, 77, 77) ;}
 .about p{
     color:rgb(77, 77, 77);
 }
-.bt4:hover{color:rgb(77, 77, 77);}
+.about button:hover{background-color:rgba(77, 77, 77);}
