@@ -38,6 +38,7 @@ ul li a{
     font-weight: 600;
     box-shadow: 1px 1px 15px rgb(255, 149, 154);
     cursor: pointer;
+    transition: 0.3s;
 }
 .bt1:hover{
     background-color:rgb(77, 77, 77);
@@ -64,6 +65,8 @@ ul li a:hover{color:rgb(77, 77, 77) ;}
     width:100%;
     background-position: cover;
     position: relative;
+    flex-direction: row;
+    z-index: 2;
 }
 .girl{
     position: absolute;
@@ -142,7 +145,8 @@ ul li a:hover{color:rgb(77, 77, 77) ;}
     height: 800px;
     position: relative;
     width: 100%;
-    z-index: -1;
+    z-index: 1;
+    flex-direction: column;
 }
 .about{
     position: absolute;
@@ -159,7 +163,7 @@ ul li a:hover{color:rgb(77, 77, 77) ;}
     font-size: 50px;
     color:rgb(77, 77, 77);
 }
-.button4{
+.bt4{
     padding: 10px 20px;
     margin-top: 30px;
     border: none;
@@ -168,9 +172,84 @@ ul li a:hover{color:rgb(77, 77, 77) ;}
     color: white;
     font-weight: 600;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .about p{
     color:rgb(77, 77, 77);
 }
-.about button:hover{background-color:rgba(77, 77, 77);}
+.bt4:hover{background-color:rgb(77, 77, 77);}
+
+.container3{
+    height: 600px;
+    width: 100%;
+    
+    background-color:#ffcaca;
+    position: relative;
+    display: flex;
+}
+.textdiv3{
+    column-count: 1;
+    margin-left: 300px;
+    margin-top: 150px;
+    position: relative;
+}
+.textdiv3 h1{
+    color:rgb(77, 77, 77);
+    padding: 20px 0px;
+    font-size: 50px;
+}
+.bt5{
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.bt5:hover{
+    background-color: #ff8c92;
+}
+.btdiv{
+    margin-top:180px;
+    margin-left: 150px;
+    
+}
+.allimage{
+    margin-top: 300px;
+    column-count: 2;
+    position: absolute;
+    margin-left: 64%;
+    column-gap: 50px;
+    color: white;
+    text-align: center;
+   
+}
+.btdiv button{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color:rgb(77, 77, 77);
+    transition: 0.3s;
+}
+.btdiv button:hover{
+    background-color: #ffe4e4;
+}
+.bt6{
+    margin-left: 30px;
+}
+.bt7{
+    margin-left: 30px;
+}
+.imagediv2{
+    margin: 30px 0px;
+}
+.imagediv4{
+    margin: 30px 0px;
+}
