@@ -133,3 +133,40 @@ ul li a:hover{color:rgb(77, 77, 77) ;}
 .icondiv i:hover{
     color:rgb(77, 77, 77);
 }
+.container2{
+    background-color: #ffe4e4;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+.about{
+    position: absolute;
+    top:40%;
+    justify-content: space-between;
+    left: 40%;
+    align-items: center;
+}
+.imagegirl{
+    margin-left: 15%;
+    margin-top: 7%;
+}
+.about h1{
+    font-size: 50px;
+    color:rgb(77, 77, 77);
+}
+.bt4{
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: none;
+    background-color:#ff9ca1;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.about p{
+    color:rgb(77, 77, 77);
+}
+.bt4:hover{color:rgb(77, 77, 77);}
